@@ -1,7 +1,7 @@
 const body = document.getElementsByTagName("body")[0];
 const btn = document.getElementById("btn");
 
-const colors = ["red", "green", "blue", "yellow", "purple"];
+// const colors = ["red", "green", "blue", "yellow", "purple"];
 
 let index = 0;
 
