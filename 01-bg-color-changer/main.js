@@ -1,5 +1,6 @@
 const body = document.getElementsByTagName("body")[0];
 const btn = document.getElementById("btn");
+const color_id = document.getElementById("color-id");
 
 // const colors = ["red", "green", "blue", "yellow", "purple"];
 
@@ -21,8 +22,10 @@ btn.addEventListener("click", () => {
   const my1000Colors = generateRandomHexColors(1000);
 
 //   console.log(my1000Colors); // This will output the array of 1000 hex codes
+    
 
   body.style.backgroundColor = my1000Colors[index++];
+  color_id.textContent = my1000Colors[index];
 
   if (index === my1000Colors.length) {
     index = 0;
